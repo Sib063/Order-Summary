@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #ffffff;
+  width: 327px;
+  height: 567px;
+  border-radius: 20px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #f2f2f2;
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.ilustration {
+  width: 327px;
+  height: 160px;
+  background-color: #382ae1;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.background-mobile {
+  width: 639px;
+  height: 194px;
+}
+.title {
+  width: 263px;
+  height: 29px;
+  font-size: 22px;
+  color: #1f2e55;
+  margin-top: 20.56px;
+  text-align: center;
+}
+.subtitle {
+  width: 263px;
+  height: 75px;
+  font-size: 15px;
+  color: #717fa6;
+  font-style: Medium;
+  margin-top: 16px;
+  text-align: center;
+}
+.wraper {
+  background-color: #f7f9ff;
+  padding: 17px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 11px;
+  margin-top: 24px;
+}
+.icon {
+  width: 48px;
+  height: 48px;
+  color: #dfe6fb;
+}
+.plan {
+  color: #1f2e55;
+  font-size: 14px;
+}
+.maindiv {
+  padding: 24px;
+}
+.plan-and-price {
+  margin: auto 0;
+}
+.change {
+  color: #382ae1;
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.pay {
+  padding: 15px;
+  background-color: #382ae1;
+  border-radius: 11px;
+  margin-top: 24px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+.go-payment {
+  color: white;
+  font-weight: 900;
+  font-size: 15px;
+}
+.cancel {
+  font-weight: 900;
+  border: none;
+  font-size: 15px;
+  color: #717fa6;
+  background-color: transparent;
+  cursor: pointer;
+}
+.cancelation {
+  text-align: center;
+  margin-top: 24px;
+}
+@media (min-width: 1440px) {
+  .container {
+    width: 450px;
+    height: 697px;
+  }
+
+  .ilustration {
+    width: 450px;
+    height: 220px;
+  }
+  .subtitle {
+    width: 354px;
+    height: 78px;
+    font-size: 16px;
+  }
+  .title {
+    width: 354px;
+    height: 37px;
+    font-size: 28px;
+  }
+  .wraper {
+    padding: 25px;
+  }
+}
